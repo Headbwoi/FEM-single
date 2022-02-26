@@ -1,0 +1,218 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+
+  padding: 0;
+
+  margin: 0;
+
+  box-sizing: border-box;
+
+}
+
+html{
+
+  font-size: 62.5%;
+
+  font-family: Karla;
+
+ 
+
+}
+
+body{
+
+  padding: 4rem 2rem;
+
+  background: hsl(204, 43%, 93%);
+
+  max-height: 100vh;
+
+}
+
+h3{
+
+  font-size: 1.8rem;
+
+  padding-bottom: 1.6rem;
+
+}
+h3, h4{
+  font-weight: 700;
+}
+
+p{
+
+  font-size: 1.3rem;
+
+  line-height: 2;
+  font-weight: 400;
+}
+
+.container{
+
+  display: block;
+
+  margin: 0 auto;
+
+  max-width: 375px;
+
+}
+
+.container .one,
+
+.container .two,
+
+.container .three{
+
+  padding: 3rem 2rem; 
+
+}
+
+.container .one{
+
+  background: #fff;
+
+  border-radius: 8px 8px 0 0;
+
+}
+
+.container .one h3{
+
+  color: hsl(179, 62%, 43%);
+
+}
+
+.container .one h4{
+
+  color: hsl(71, 73%, 54%);
+
+  font-size: 1.4rem;
+
+  padding-bottom: 1.6rem;
+
+}
+
+.container .two{
+
+  background: hsl(179, 62%, 43%);
+
+  letter-spacing: 1px;
+
+  padding-bottom: 1rem;
+
+}
+
+.container .two h3{
+
+  color: #fff;
+
+}
+
+.container .two p{
+
+  color: #fff;
+
+  display: flex;
+
+  align-items: center;
+
+}
+
+.container .two p strong{
+
+  font-size: 3.3rem;
+
+  padding-right: 1rem;
+
+}
+
+.container .two p span{
+
+  font-size: 1.5rem;
+
+  opacity: 0.5;
+
+}
+
+.container .two a{
+
+  display: block;
+
+  color: #fff;
+
+  background-color: hsl(71, 73%, 54%);
+
+  width: 100%;
+
+  margin: 1rem auto;
+
+  padding: 1.7rem;
+
+  text-align: center;
+
+  font-size: 1.5rem;
+
+  text-decoration: none;
+
+  border-radius: 5px;
+
+}
+
+.container .three{
+
+  background: hsl(179, 62%, 43%);
+
+  opacity: .7;
+
+  color: #fff;
+
+  border-radius: 0 0 8px 8px;
+
+}
+
+.container .three p{
+
+  line-height: 1.4;
+
+}
+
+.attribution{ 
+
+  font-size: 1.2rem; 
+
+  text-align: center; 
+
+  padding-top: 2rem;
+
+}
+
+.attribution a{ 
+
+  color: hsl(228, 45%, 44%); 
+
+}
+
+@media (min-width: 768px) {
+
+  .container{
+
+    max-width: 70vw;
+
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr)
+
+  }
+
+  .container .one{
+
+    grid-column: 1 / -1;
+
+  }
+  .container .three{
+    border-radius: 0px 0px 8px 0px;
+    }
+
+}
+
